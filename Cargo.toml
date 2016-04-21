@@ -4,3 +4,48 @@ version = "0.1.0"
 authors = ["Frost Red Lee <frostrlee@gmail.com>"]
 
 [dependencies]
+rand = "0.3"
+
+[[bin]]
+name = "ele1"
+path = "src/Elementary/1.rs"
+
+[[bin]]
+name = "ele2"
+path = "src/Elementary/2.rs"
+
+[[bin]]
+name = "ele3"
+path = "src/Elementary/3.rs"
+
+[[bin]]
+name = "ele4"
+path = "src/Elementary/4.rs"
+
+[[bin]]
+name = "ele5"
+path = "src/Elementary/5.rs"
+
+[[bin]]
+name = "ele6"
+path = "src/Elementary/6.rs"
+
+[[bin]]
+name = "ele7"
+path = "src/Elementary/7.rs"
+
+[[bin]]
+name = "ele8"
+path = "src/Elementary/8.rs"
+
+[[bin]]
+name = "ele9"
+path = "src/Elementary/9.rs"
+
+[[bin]]
+name = "ele10"
+path = "src/Elementary/10.rs"
+
+[[bin]]
+name = "ele11"
+path = "src/Elementary/11.rs"
