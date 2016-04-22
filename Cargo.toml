@@ -49,3 +49,15 @@ path = "src/Elementary/10.rs"
 [[bin]]
 name = "ele11"
 path = "src/Elementary/11.rs"
+
+[[bin]]
+name = "lstrings1"
+path = "src/Lists_strings/1.rs"
+
+[[bin]]
+name = "lstrings2"
+path = "src/Lists_strings/2.rs"
+
+[[bin]]
+name = "lstrings3"
+path = "src/Lists_strings/3.rs"
