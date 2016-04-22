@@ -61,3 +61,7 @@ path = "src/Lists_strings/2.rs"
 [[bin]]
 name = "lstrings3"
 path = "src/Lists_strings/3.rs"
+
+[[bin]]
+name = "lstrings4"
+path = "src/Lists_strings/4.rs"
