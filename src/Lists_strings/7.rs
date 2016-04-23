@@ -1,4 +1,5 @@
 #![feature(zero_one)]
+#[warn(dead_code)]
 use std::ops::AddAssign;
 use std::ops::Add;
 use std::num::Zero;
@@ -36,8 +37,11 @@ fn list_sum_while<T>(list: &Vec<T>) -> Option<T>
     Some(sum)
 }
 fn list_sum_recu<T>(list: &[T]) -> T
-    where T: Add
+    where T: Add<T, Output = T> + Clone + Zero
 {
-    let mut sum = list[0] + list_sum_recu(&list[1..]);
+    if list.len() == 0 {
+        return T::zero();
+    }
+    let mut sum = list[0].clone() + list_sum_recu(&list[1..]);
     sum
 }
