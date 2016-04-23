@@ -81,3 +81,7 @@ path = "src/Lists_strings/7.rs"
 [[bin]]
 name = "lstrings8"
 path = "src/Lists_strings/8.rs"
+
+[[bin]]
+name = "lstrings9"
+path = "src/Lists_strings/9.rs"

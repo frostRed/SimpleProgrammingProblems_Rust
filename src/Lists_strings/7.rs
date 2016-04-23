@@ -42,6 +42,6 @@ fn list_sum_recu<T>(list: &[T]) -> T
     if list.len() == 0 {
         return T::zero();
     }
-    let mut sum = list[0].clone() + list_sum_recu(&list[1..]);
+    let sum = list[0].clone() + list_sum_recu(&list[1..]);
     sum
 }
