@@ -1,5 +1,5 @@
 #![feature(zero_one)]
-#[warn(dead_code)]
+#![allow(dead_code)]
 use std::ops::AddAssign;
 use std::ops::Add;
 use std::num::Zero;
